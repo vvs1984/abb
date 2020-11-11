@@ -30,8 +30,7 @@ int main() {
             exit(1);
         }
 
-        if (child_pid == 0) {
-            /* Never returns if the call is successful */
+        if (child_pid == 0) {//выполнение команды в дочернем fork
             if (execvp(command[0], command) < 0) {	// заменяет текущий образ процесса новым
             						// образом процесса.
             						
