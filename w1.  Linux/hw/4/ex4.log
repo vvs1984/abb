@@ -1,0 +1,15 @@
+Script started on 2020-11-11 12:01:03+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="142" LINES="24"]
+
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/4[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/4[00m$ 
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/4[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/4[00m$ mkdir abc xyz
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/4[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/4[00m$ touch ./abc/file.txt
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/4[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/4[00m$ link ./abc/file.txt ./xyz/file2.txt
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/4[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/4[00m$ find ./ -iname 'file*.txt' -type f -exec ls -i {} \;
+2762901 ./abc/file.txt
+2762901 ./xyz/file2.txt
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/4[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/4[00m$ find ./ -iname 'file*.txt' -type f -exec ls -i {} \;[17Plink ./abc/file.txt ./xyz/file2.txt[15Ptouch ./abc/file.txt[7Pmkdir abc xyzexit[Kfind ./ -iname 'file*.txt' -type f -exec ls -i {} \;[8Pum 2762687 -type f -exec rm[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1@2[1@7[1@6[1@2[1@9[1@0[1@1
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/4[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/4[00m$ find ./ -inum 2762901 -type f -exec rm {} \;[8@ame 'file*.txt' -type f -exec ls -i[C[C[C[C[C[C
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/4[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/4[00m$ exit
+exit
+
+Script done on 2020-11-11 12:02:20+03:00 [COMMAND_EXIT_CODE="0"]

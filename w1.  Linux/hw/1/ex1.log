@@ -1,0 +1,73 @@
+Script started on 2020-11-10 23:36:06+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ script -q ex5.txt[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ls -l ex5.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 707 ex5.txt[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ls -l ex5.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 666 ex5.txt[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ls -l ex5.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 666 ex5.txt[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ls -l ex5.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 666 ex5.txt[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[Kgcc fork3.c -o fork3
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ./fork3 &
+[1] 9199
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps
+    PID TTY          TIME CMD
+   8638 pts/1    00:00:00 bash
+   9199 pts/1    00:00:00 fork3
+   9200 pts/1    00:00:00 fork3
+   9201 pts/1    00:00:00 fork3
+   9202 pts/1    00:00:00 fork3
+   9203 pts/1    00:00:00 fork3
+   9204 pts/1    00:00:00 fork3
+   9205 pts/1    00:00:00 fork3
+   9206 pts/1    00:00:00 fork3
+   9207 pts/1    00:00:00 ps
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps
+    PID TTY          TIME CMD
+   8638 pts/1    00:00:00 bash
+   9295 pts/1    00:00:00 ps
+[1]+  Done                    ./fork3
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps./fork3 &gcc fork3.c -o fork3[C[K5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.c -o [1Pfork5[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ [C[C[C[C[C[C[C[C5.c -o fork5[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ [C[C[C[C[C[C[C[C[C
+
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ gcc fork5.c -o fork5[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./fork3 &[1P &5 &
+[1] 9302
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ./fork5 &gcc fork5.c -o fork5[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+    PID TTY          TIME CMD
+   8638 pts/1    00:00:00 bash
+   9302 pts/1    00:00:00 fork5
+   9303 pts/1    00:00:00 fork5
+   9304 pts/1    00:00:00 fork5
+   9305 pts/1    00:00:00 fork5
+   9306 pts/1    00:00:00 fork5
+   9307 pts/1    00:00:00 fork5
+   9308 pts/1    00:00:00 fork5
+   9309 pts/1    00:00:00 fork5
+   9310 pts/1    00:00:00 fork5
+   9311 pts/1    00:00:00 fork5
+   9312 pts/1    00:00:00 fork5
+   9313 pts/1    00:00:00 fork5
+   9314 pts/1    00:00:00 fork5
+   9315 pts/1    00:00:00 fork5
+   9316 pts/1    00:00:00 fork5
+   9317 pts/1    00:00:00 fork5
+   9318 pts/1    00:00:00 fork5
+   9319 pts/1    00:00:00 fork5
+   9320 pts/1    00:00:00 fork5
+   9321 pts/1    00:00:00 fork5
+   9322 pts/1    00:00:00 fork5
+   9323 pts/1    00:00:00 fork5
+   9324 pts/1    00:00:00 fork5
+   9325 pts/1    00:00:00 fork5
+   9326 pts/1    00:00:00 fork5
+   9327 pts/1    00:00:00 fork5
+   9328 pts/1    00:00:00 fork5
+   9329 pts/1    00:00:00 fork5
+   9330 pts/1    00:00:00 fork5
+   9331 pts/1    00:00:00 fork5
+   9332 pts/1    00:00:00 fork5
+   9333 pts/1    00:00:00 fork5
+   9334 pts/1    00:00:00 ps
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps
+    PID TTY          TIME CMD
+   8638 pts/1    00:00:00 bash
+   9336 pts/1    00:00:00 ps
+[1]+  Done                    ./fork5
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ exit
+exit
+
+Script done on 2020-11-10 23:37:57+03:00 [COMMAND_EXIT_CODE="0"]
