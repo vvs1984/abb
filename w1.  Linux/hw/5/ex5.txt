@@ -1,14 +1,17 @@
-Script started on 2020-11-11 12:08:53+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="142" LINES="24"]
+Script started on 2020-11-12 18:43:02+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="101" LINES="56"]
 (base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ touch ex5.txt
 (base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ ls -l ex5.txt
--rw-rw-r-- 1 vvs vvs 0 ноя 11 12:09 ex5.txt
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ chmod 767 ex5.txt
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ chmod 767 ex5.txt[4Pls -l[C[C[C[C[C[C[C[C
--rwxrw-rwx 1 vvs vvs 0 ноя 11 12:09 [0m[01;32mex5.txt[0m
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ ls -l ex5.txt[4@chmod 767[C[C[C[C[C[C[C[C[C[1P[C7 ex5.txt
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ chmod 777 ex5.txt[4Pls -l[C[C[C[C[C[C[C[C[4@chmod 767[C[C[C[C[C[C[C[C[4Pls -l[C[C[C[C[C[C[C[C
--rwxrwxrwx 1 vvs vvs 0 ноя 11 12:09 [0m[01;32mex5.txt[0m
+-rwxrwxrwx 1 vvs vvs 0 ноя 12 18:43 [0m[01;32mex5.txt[0m
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ chmod 666 ex5.txt
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ ls -l ex5.txt
+-rw-rw-rw- 1 vvs vvs 0 ноя 12 18:43 ex5.txt
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ chmod 707 ex5.txt
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ ls -l ex5.txt
+-rwx---rwx 1 vvs vvs 0 ноя 12 18:43 [0m[01;32mex5.txt[0m
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ chmod 777 ex5.txt
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ ls -l ex5.txt
+-rwxrwxrwx 1 vvs vvs 0 ноя 12 18:43 [0m[01;32mex5.txt[0m
 (base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/5[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/5[00m$ exit
 exit
 
-Script done on 2020-11-11 12:13:31+03:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2020-11-12 18:43:58+03:00 [COMMAND_EXIT_CODE="0"]

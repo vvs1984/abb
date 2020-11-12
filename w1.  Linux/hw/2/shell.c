@@ -9,20 +9,23 @@ char **get_input(char *); 	//декларация функции
 
 int main() {
     char **command;
-    char *input[100];
+    char input[100];
     pid_t child_pid;
     int stat_loc;
+  
 
     while (1) {
+    
 	printf( "\nДемо версия shell. Для выхода нажмите Ctrl+C. Введите команду\n");
-	gets(input);
+	fgets(input, 100, stdin);
 	command = get_input(input);
 
         if (!command[0]) { //обработка пустой строки
-	    gets(input);
-	    command = get_input(*input);
+	    fgets(input, 100, stdin);
+	    command = get_input(input);
             continue;
         }
+        
         child_pid = fork();
         
         if (child_pid < 0){ // отработка ошибки при вызове fork
@@ -59,6 +62,21 @@ char **get_input(char *input) {
     char *separator = " ";
     char *parsed;
     int index = 0;
+    char *ch;                       // используется для удаления символов новой строки
+    char c;                         // используется для чистки входной строки
+    
+    
+    //  удаление символа новой строки
+    ch = input;
+    while (*ch != '\n' &&  *ch != '\0') {
+        ++ch;
+    }
+    if (*ch) {
+        *ch = '\0';
+    } else {         // удаление любого экстра символа из входной строки
+        while ((c = getchar()) != '\n' && c != EOF)
+            continue;
+    }
 
     parsed = strtok(input, separator);
     while (parsed != NULL) {
