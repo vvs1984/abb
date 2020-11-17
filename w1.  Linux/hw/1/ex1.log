@@ -1,73 +1,1181 @@
-Script started on 2020-11-10 23:36:06+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ script -q ex5.txt[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ls -l ex5.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 707 ex5.txt[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ls -l ex5.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 666 ex5.txt[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ls -l ex5.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 666 ex5.txt[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ls -l ex5.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 666 ex5.txt[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[Kgcc fork3.c -o fork3
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ./fork3 &
-[1] 9199
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps
-    PID TTY          TIME CMD
-   8638 pts/1    00:00:00 bash
-   9199 pts/1    00:00:00 fork3
-   9200 pts/1    00:00:00 fork3
-   9201 pts/1    00:00:00 fork3
-   9202 pts/1    00:00:00 fork3
-   9203 pts/1    00:00:00 fork3
-   9204 pts/1    00:00:00 fork3
-   9205 pts/1    00:00:00 fork3
-   9206 pts/1    00:00:00 fork3
-   9207 pts/1    00:00:00 ps
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps
-    PID TTY          TIME CMD
-   8638 pts/1    00:00:00 bash
-   9295 pts/1    00:00:00 ps
-[1]+  Done                    ./fork3
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps./fork3 &gcc fork3.c -o fork3[C[K5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.c -o [1Pfork5[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ [C[C[C[C[C[C[C[C5.c -o fork5[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ [C[C[C[C[C[C[C[C[C
-
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ gcc fork5.c -o fork5[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./fork3 &[1P &5 &
-[1] 9302
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ./fork5 &gcc fork5.c -o fork5[A(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-    PID TTY          TIME CMD
-   8638 pts/1    00:00:00 bash
-   9302 pts/1    00:00:00 fork5
-   9303 pts/1    00:00:00 fork5
-   9304 pts/1    00:00:00 fork5
-   9305 pts/1    00:00:00 fork5
-   9306 pts/1    00:00:00 fork5
-   9307 pts/1    00:00:00 fork5
-   9308 pts/1    00:00:00 fork5
-   9309 pts/1    00:00:00 fork5
-   9310 pts/1    00:00:00 fork5
-   9311 pts/1    00:00:00 fork5
-   9312 pts/1    00:00:00 fork5
-   9313 pts/1    00:00:00 fork5
-   9314 pts/1    00:00:00 fork5
-   9315 pts/1    00:00:00 fork5
-   9316 pts/1    00:00:00 fork5
-   9317 pts/1    00:00:00 fork5
-   9318 pts/1    00:00:00 fork5
-   9319 pts/1    00:00:00 fork5
-   9320 pts/1    00:00:00 fork5
-   9321 pts/1    00:00:00 fork5
-   9322 pts/1    00:00:00 fork5
-   9323 pts/1    00:00:00 fork5
-   9324 pts/1    00:00:00 fork5
-   9325 pts/1    00:00:00 fork5
-   9326 pts/1    00:00:00 fork5
-   9327 pts/1    00:00:00 fork5
-   9328 pts/1    00:00:00 fork5
-   9329 pts/1    00:00:00 fork5
-   9330 pts/1    00:00:00 fork5
-   9331 pts/1    00:00:00 fork5
-   9332 pts/1    00:00:00 fork5
-   9333 pts/1    00:00:00 fork5
-   9334 pts/1    00:00:00 ps
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ps
-    PID TTY          TIME CMD
-   8638 pts/1    00:00:00 bash
-   9336 pts/1    00:00:00 ps
-[1]+  Done                    ./fork5
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ exit
+Script started on 2020-11-12 17:41:21+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="56"]
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ exitpstree -c./fork5 &pstree -c./fork3 &
+[1] 8666
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ./fork3 &[5Pexitpstree -c
+systemd─┬─ModemManager─┬─{ModemManager}
+        │              └─{ModemManager}
+        ├─NetworkManager─┬─{NetworkManager}
+        │                └─{NetworkManager}
+        ├─accounts-daemon─┬─{accounts-daemon}
+        │                 └─{accounts-daemon}
+        ├─acpid
+        ├─avahi-daemon───avahi-daemon
+        ├─colord─┬─{colord}
+        │        └─{colord}
+        ├─containerd─┬─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            └─{containerd}
+        ├─cron
+        ├─cups-browsed─┬─{cups-browsed}
+        │              └─{cups-browsed}
+        ├─cupsd
+        ├─dbus-daemon
+        ├─dockerd─┬─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         └─{dockerd}
+        ├─fwupd─┬─{fwupd}
+        │       ├─{fwupd}
+        │       ├─{fwupd}
+        │       └─{fwupd}
+        ├─gdm3─┬─gdm-session-wor─┬─gdm-x-session─┬─Xorg─┬─{Xorg}
+        │      │                 │               │      ├─{Xorg}
+        │      │                 │               │      ├─{Xorg}
+        │      │                 │               │      ├─{Xorg}
+        │      │                 │               │      ├─{Xorg}
+        │      │                 │               │      └─{Xorg}
+        │      │                 │               ├─gnome-session-b─┬─ssh-agent
+        │      │                 │               │                 ├─{gnome-session-b}
+        │      │                 │               │                 └─{gnome-session-b}
+        │      │                 │               ├─{gdm-x-session}
+        │      │                 │               └─{gdm-x-session}
+        │      │                 ├─{gdm-session-wor}
+        │      │                 └─{gdm-session-wor}
+        │      ├─{gdm3}
+        │      └─{gdm3}
+        ├─gnome-keyring-d─┬─{gnome-keyring-d}
+        │                 ├─{gnome-keyring-d}
+        │                 └─{gnome-keyring-d}
+        ├─irqbalance───{irqbalance}
+        ├─kerneloops
+        ├─kerneloops
+        ├─mount.ntfs
+        ├─mount.ntfs
+        ├─networkd-dispat
+        ├─polkitd─┬─{polkitd}
+        │         └─{polkitd}
+        ├─postgres─┬─postgres
+        │          ├─postgres
+        │          ├─postgres
+        │          ├─postgres
+        │          ├─postgres
+        │          └─postgres
+        ├─rsyslogd─┬─{rsyslogd}
+        │          ├─{rsyslogd}
+        │          └─{rsyslogd}
+        ├─rtkit-daemon─┬─{rtkit-daemon}
+        │              └─{rtkit-daemon}
+        ├─snapd─┬─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       └─{snapd}
+        ├─starter───charon─┬─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  └─{charon}
+        ├─switcheroo-cont─┬─{switcheroo-cont}
+        │                 └─{switcheroo-cont}
+        ├─systemd─┬─(sd-pam)
+        │         ├─at-spi-bus-laun─┬─dbus-daemon
+        │         │                 ├─{at-spi-bus-laun}
+        │         │                 ├─{at-spi-bus-laun}
+        │         │                 └─{at-spi-bus-laun}
+        │         ├─at-spi2-registr─┬─{at-spi2-registr}
+        │         │                 └─{at-spi2-registr}
+        │         ├─dbus-daemon
+        │         ├─dconf-service─┬─{dconf-service}
+        │         │               └─{dconf-service}
+        │         ├─evolution-addre─┬─{evolution-addre}
+        │         │                 ├─{evolution-addre}
+        │         │                 ├─{evolution-addre}
+        │         │                 ├─{evolution-addre}
+        │         │                 └─{evolution-addre}
+        │         ├─evolution-calen─┬─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 └─{evolution-calen}
+        │         ├─evolution-sourc─┬─{evolution-sourc}
+        │         │                 ├─{evolution-sourc}
+        │         │                 └─{evolution-sourc}
+        │         ├─explorer.exe─┬─{explorer.exe}
+        │         │              ├─{explorer.exe}
+        │         │              └─{explorer.exe}
+        │         ├─firefox─┬─Privileged Cont─┬─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 └─{Privileged Cont}
+        │         │         ├─Web Content─┬─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             └─{Web Content}
+        │         │         ├─Web Content─┬─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             └─{Web Content}
+        │         │         ├─Web Content─┬─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             └─{Web Content}
+        │         │         ├─Web Content─┬─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             └─{Web Content}
+        │         │         ├─WebExtensions─┬─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               └─{WebExtensions}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         └─{firefox}
+        │         ├─gedit─┬─{gedit}
+        │         │       ├─{gedit}
+        │         │       ├─{gedit}
+        │         │       └─{gedit}
+        │         ├─gjs─┬─{gjs}
+        │         │     ├─{gjs}
+        │         │     ├─{gjs}
+        │         │     ├─{gjs}
+        │         │     ├─{gjs}
+        │         │     └─{gjs}
+        │         ├─gnome-keyring-d─┬─{gnome-keyring-d}
+        │         │                 └─{gnome-keyring-d}
+        │         ├─gnome-session-b─┬─evolution-alarm─┬─{evolution-alarm}
+        │         │                 │                 ├─{evolution-alarm}
+        │         │                 │                 ├─{evolution-alarm}
+        │         │                 │                 ├─{evolution-alarm}
+        │         │                 │                 └─{evolution-alarm}
+        │         │                 ├─gnome-software─┬─{gnome-software}
+        │         │                 │                ├─{gnome-software}
+        │         │                 │                └─{gnome-software}
+        │         │                 ├─gsd-disk-utilit─┬─{gsd-disk-utilit}
+        │         │                 │                 └─{gsd-disk-utilit}
+        │         │                 ├─update-notifier─┬─{update-notifier}
+        │         │                 │                 ├─{update-notifier}
+        │         │                 │                 └─{update-notifier}
+        │         │                 ├─{gnome-session-b}
+        │         │                 ├─{gnome-session-b}
+        │         │                 ├─{gnome-session-b}
+        │         │                 └─{gnome-session-b}
+        │         ├─gnome-session-c───{gnome-session-c}
+        │         ├─gnome-shell─┬─bash───notepad-plus-pl─┬─{notepad-plus-pl}
+        │         │             │                        └─{notepad-plus-pl}
+        │         │             ├─ibus-daemon─┬─ibus-engine-sim─┬─{ibus-engine-sim}
+        │         │             │             │                 └─{ibus-engine-sim}
+        │         │             │             ├─ibus-extension-─┬─{ibus-extension-}
+        │         │             │             │                 ├─{ibus-extension-}
+        │         │             │             │                 └─{ibus-extension-}
+        │         │             │             ├─ibus-memconf─┬─{ibus-memconf}
+        │         │             │             │              └─{ibus-memconf}
+        │         │             │             ├─{ibus-daemon}
+        │         │             │             └─{ibus-daemon}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             └─{gnome-shell}
+        │         ├─gnome-shell-cal─┬─{gnome-shell-cal}
+        │         │                 ├─{gnome-shell-cal}
+        │         │                 ├─{gnome-shell-cal}
+        │         │                 ├─{gnome-shell-cal}
+        │         │                 └─{gnome-shell-cal}
+        │         ├─gnome-terminal-─┬─bash───script───bash─┬─fork3─┬─fork3─┬─fork3───fork3
+        │         │                 │                      │       │       └─fork3
+        │         │                 │                      │       ├─fork3───fork3
+        │         │                 │                      │       └─fork3
+        │         │                 │                      └─pstree
+        │         │                 ├─{gnome-terminal-}
+        │         │                 ├─{gnome-terminal-}
+        │         │                 ├─{gnome-terminal-}
+        │         │                 └─{gnome-terminal-}
+        │         ├─goa-daemon─┬─{goa-daemon}
+        │         │            ├─{goa-daemon}
+        │         │            └─{goa-daemon}
+        │         ├─goa-identity-se─┬─{goa-identity-se}
+        │         │                 └─{goa-identity-se}
+        │         ├─gsd-a11y-settin─┬─{gsd-a11y-settin}
+        │         │                 ├─{gsd-a11y-settin}
+        │         │                 └─{gsd-a11y-settin}
+        │         ├─gsd-color─┬─{gsd-color}
+        │         │           ├─{gsd-color}
+        │         │           └─{gsd-color}
+        │         ├─gsd-datetime─┬─{gsd-datetime}
+        │         │              ├─{gsd-datetime}
+        │         │              └─{gsd-datetime}
+        │         ├─gsd-housekeepin─┬─{gsd-housekeepin}
+        │         │                 ├─{gsd-housekeepin}
+        │         │                 └─{gsd-housekeepin}
+        │         ├─gsd-keyboard─┬─{gsd-keyboard}
+        │         │              ├─{gsd-keyboard}
+        │         │              └─{gsd-keyboard}
+        │         ├─gsd-media-keys─┬─{gsd-media-keys}
+        │         │                ├─{gsd-media-keys}
+        │         │                └─{gsd-media-keys}
+        │         ├─gsd-power─┬─{gsd-power}
+        │         │           ├─{gsd-power}
+        │         │           └─{gsd-power}
+        │         ├─gsd-print-notif─┬─{gsd-print-notif}
+        │         │                 └─{gsd-print-notif}
+        │         ├─gsd-printer─┬─{gsd-printer}
+        │         │             └─{gsd-printer}
+        │         ├─gsd-rfkill─┬─{gsd-rfkill}
+        │         │            └─{gsd-rfkill}
+        │         ├─gsd-screensaver─┬─{gsd-screensaver}
+        │         │                 └─{gsd-screensaver}
+        │         ├─gsd-sharing─┬─{gsd-sharing}
+        │         │             ├─{gsd-sharing}
+        │         │             └─{gsd-sharing}
+        │         ├─gsd-smartcard─┬─{gsd-smartcard}
+        │         │               ├─{gsd-smartcard}
+        │         │               ├─{gsd-smartcard}
+        │         │               └─{gsd-smartcard}
+        │         ├─gsd-sound─┬─{gsd-sound}
+        │         │           ├─{gsd-sound}
+        │         │           └─{gsd-sound}
+        │         ├─gsd-usb-protect─┬─{gsd-usb-protect}
+        │         │                 ├─{gsd-usb-protect}
+        │         │                 └─{gsd-usb-protect}
+        │         ├─gsd-wacom─┬─{gsd-wacom}
+        │         │           └─{gsd-wacom}
+        │         ├─gsd-wwan─┬─{gsd-wwan}
+        │         │          ├─{gsd-wwan}
+        │         │          └─{gsd-wwan}
+        │         ├─gsd-xsettings─┬─{gsd-xsettings}
+        │         │               ├─{gsd-xsettings}
+        │         │               └─{gsd-xsettings}
+        │         ├─gvfs-afc-volume─┬─{gvfs-afc-volume}
+        │         │                 ├─{gvfs-afc-volume}
+        │         │                 └─{gvfs-afc-volume}
+        │         ├─gvfs-goa-volume─┬─{gvfs-goa-volume}
+        │         │                 └─{gvfs-goa-volume}
+        │         ├─gvfs-gphoto2-vo─┬─{gvfs-gphoto2-vo}
+        │         │                 └─{gvfs-gphoto2-vo}
+        │         ├─gvfs-mtp-volume─┬─{gvfs-mtp-volume}
+        │         │                 └─{gvfs-mtp-volume}
+        │         ├─gvfs-udisks2-vo─┬─{gvfs-udisks2-vo}
+        │         │                 ├─{gvfs-udisks2-vo}
+        │         │                 └─{gvfs-udisks2-vo}
+        │         ├─gvfsd─┬─gvfsd-trash─┬─{gvfsd-trash}
+        │         │       │             └─{gvfsd-trash}
+        │         │       ├─{gvfsd}
+        │         │       └─{gvfsd}
+        │         ├─gvfsd-fuse─┬─{gvfsd-fuse}
+        │         │            ├─{gvfsd-fuse}
+        │         │            ├─{gvfsd-fuse}
+        │         │            ├─{gvfsd-fuse}
+        │         │            └─{gvfsd-fuse}
+        │         ├─gvfsd-metadata─┬─{gvfsd-metadata}
+        │         │                └─{gvfsd-metadata}
+        │         ├─ibus-portal─┬─{ibus-portal}
+        │         │             └─{ibus-portal}
+        │         ├─ibus-x11─┬─{ibus-x11}
+        │         │          └─{ibus-x11}
+        │         ├─nautilus─┬─{nautilus}
+        │         │          ├─{nautilus}
+        │         │          ├─{nautilus}
+        │         │          ├─{nautilus}
+        │         │          ├─{nautilus}
+        │         │          └─{nautilus}
+        │         ├─plugplay.exe─┬─{plugplay.exe}
+        │         │              └─{plugplay.exe}
+        │         ├─pulseaudio─┬─{pulseaudio}
+        │         │            ├─{pulseaudio}
+        │         │            └─{pulseaudio}
+        │         ├─services.exe─┬─{services.exe}
+        │         │              ├─{services.exe}
+        │         │              ├─{services.exe}
+        │         │              ├─{services.exe}
+        │         │              └─{services.exe}
+        │         ├─tracker-miner-f─┬─{tracker-miner-f}
+        │         │                 ├─{tracker-miner-f}
+        │         │                 ├─{tracker-miner-f}
+        │         │                 └─{tracker-miner-f}
+        │         ├─tracker-store─┬─{tracker-store}
+        │         │               ├─{tracker-store}
+        │         │               ├─{tracker-store}
+        │         │               └─{tracker-store}
+        │         ├─winedevice.exe─┬─{winedevice.exe}
+        │         │                └─{winedevice.exe}
+        │         ├─winedevice.exe─┬─{winedevice.exe}
+        │         │                ├─{winedevice.exe}
+        │         │                └─{winedevice.exe}
+        │         ├─wineserver
+        │         ├─xdg-document-po─┬─{xdg-document-po}
+        │         │                 ├─{xdg-document-po}
+        │         │                 ├─{xdg-document-po}
+        │         │                 ├─{xdg-document-po}
+        │         │                 └─{xdg-document-po}
+        │         └─xdg-permission-─┬─{xdg-permission-}
+        │                           └─{xdg-permission-}
+        ├─systemd-journal
+        ├─systemd-logind
+        ├─systemd-resolve
+        ├─systemd-timesyn───{systemd-timesyn}
+        ├─systemd-udevd
+        ├─teamviewerd─┬─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             └─{teamviewerd}
+        ├─udisksd─┬─{udisksd}
+        │         ├─{udisksd}
+        │         ├─{udisksd}
+        │         └─{udisksd}
+        ├─unattended-upgr───{unattended-upgr}
+        ├─upowerd─┬─{upowerd}
+        │         └─{upowerd}
+        ├─whoopsie─┬─{whoopsie}
+        │          └─{whoopsie}
+        ├─wpa_supplicant
+        └─xl2tpd
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ pstree -c./fork3 &[5Pexitpstree -c./fork5 &
+[2] 8675
+[1]   Done                    ./fork3
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ ./fork5 &pstree -c
+systemd─┬─ModemManager─┬─{ModemManager}
+        │              └─{ModemManager}
+        ├─NetworkManager─┬─{NetworkManager}
+        │                └─{NetworkManager}
+        ├─accounts-daemon─┬─{accounts-daemon}
+        │                 └─{accounts-daemon}
+        ├─acpid
+        ├─avahi-daemon───avahi-daemon
+        ├─colord─┬─{colord}
+        │        └─{colord}
+        ├─containerd─┬─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            ├─{containerd}
+        │            └─{containerd}
+        ├─cron
+        ├─cups-browsed─┬─{cups-browsed}
+        │              └─{cups-browsed}
+        ├─cupsd
+        ├─dbus-daemon
+        ├─dockerd─┬─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         ├─{dockerd}
+        │         └─{dockerd}
+        ├─fwupd─┬─{fwupd}
+        │       ├─{fwupd}
+        │       ├─{fwupd}
+        │       └─{fwupd}
+        ├─gdm3─┬─gdm-session-wor─┬─gdm-x-session─┬─Xorg─┬─{Xorg}
+        │      │                 │               │      ├─{Xorg}
+        │      │                 │               │      ├─{Xorg}
+        │      │                 │               │      ├─{Xorg}
+        │      │                 │               │      ├─{Xorg}
+        │      │                 │               │      └─{Xorg}
+        │      │                 │               ├─gnome-session-b─┬─ssh-agent
+        │      │                 │               │                 ├─{gnome-session-b}
+        │      │                 │               │                 └─{gnome-session-b}
+        │      │                 │               ├─{gdm-x-session}
+        │      │                 │               └─{gdm-x-session}
+        │      │                 ├─{gdm-session-wor}
+        │      │                 └─{gdm-session-wor}
+        │      ├─{gdm3}
+        │      └─{gdm3}
+        ├─gnome-keyring-d─┬─{gnome-keyring-d}
+        │                 ├─{gnome-keyring-d}
+        │                 └─{gnome-keyring-d}
+        ├─irqbalance───{irqbalance}
+        ├─kerneloops
+        ├─kerneloops
+        ├─mount.ntfs
+        ├─mount.ntfs
+        ├─networkd-dispat
+        ├─polkitd─┬─{polkitd}
+        │         └─{polkitd}
+        ├─postgres─┬─postgres
+        │          ├─postgres
+        │          ├─postgres
+        │          ├─postgres
+        │          ├─postgres
+        │          └─postgres
+        ├─rsyslogd─┬─{rsyslogd}
+        │          ├─{rsyslogd}
+        │          └─{rsyslogd}
+        ├─rtkit-daemon─┬─{rtkit-daemon}
+        │              └─{rtkit-daemon}
+        ├─snapd─┬─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       ├─{snapd}
+        │       └─{snapd}
+        ├─starter───charon─┬─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  ├─{charon}
+        │                  └─{charon}
+        ├─switcheroo-cont─┬─{switcheroo-cont}
+        │                 └─{switcheroo-cont}
+        ├─systemd─┬─(sd-pam)
+        │         ├─at-spi-bus-laun─┬─dbus-daemon
+        │         │                 ├─{at-spi-bus-laun}
+        │         │                 ├─{at-spi-bus-laun}
+        │         │                 └─{at-spi-bus-laun}
+        │         ├─at-spi2-registr─┬─{at-spi2-registr}
+        │         │                 └─{at-spi2-registr}
+        │         ├─dbus-daemon
+        │         ├─dconf-service─┬─{dconf-service}
+        │         │               └─{dconf-service}
+        │         ├─evolution-addre─┬─{evolution-addre}
+        │         │                 ├─{evolution-addre}
+        │         │                 ├─{evolution-addre}
+        │         │                 ├─{evolution-addre}
+        │         │                 └─{evolution-addre}
+        │         ├─evolution-calen─┬─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 ├─{evolution-calen}
+        │         │                 └─{evolution-calen}
+        │         ├─evolution-sourc─┬─{evolution-sourc}
+        │         │                 ├─{evolution-sourc}
+        │         │                 └─{evolution-sourc}
+        │         ├─explorer.exe─┬─{explorer.exe}
+        │         │              ├─{explorer.exe}
+        │         │              └─{explorer.exe}
+        │         ├─firefox─┬─Privileged Cont─┬─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 ├─{Privileged Cont}
+        │         │         │                 └─{Privileged Cont}
+        │         │         ├─Web Content─┬─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             └─{Web Content}
+        │         │         ├─Web Content─┬─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             └─{Web Content}
+        │         │         ├─Web Content─┬─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             └─{Web Content}
+        │         │         ├─Web Content─┬─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             ├─{Web Content}
+        │         │         │             └─{Web Content}
+        │         │         ├─WebExtensions─┬─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               ├─{WebExtensions}
+        │         │         │               └─{WebExtensions}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         ├─{firefox}
+        │         │         └─{firefox}
+        │         ├─gedit─┬─{gedit}
+        │         │       ├─{gedit}
+        │         │       ├─{gedit}
+        │         │       └─{gedit}
+        │         ├─gjs─┬─{gjs}
+        │         │     ├─{gjs}
+        │         │     ├─{gjs}
+        │         │     ├─{gjs}
+        │         │     ├─{gjs}
+        │         │     └─{gjs}
+        │         ├─gnome-keyring-d─┬─{gnome-keyring-d}
+        │         │                 └─{gnome-keyring-d}
+        │         ├─gnome-session-b─┬─evolution-alarm─┬─{evolution-alarm}
+        │         │                 │                 ├─{evolution-alarm}
+        │         │                 │                 ├─{evolution-alarm}
+        │         │                 │                 ├─{evolution-alarm}
+        │         │                 │                 └─{evolution-alarm}
+        │         │                 ├─gnome-software─┬─{gnome-software}
+        │         │                 │                ├─{gnome-software}
+        │         │                 │                └─{gnome-software}
+        │         │                 ├─gsd-disk-utilit─┬─{gsd-disk-utilit}
+        │         │                 │                 └─{gsd-disk-utilit}
+        │         │                 ├─update-notifier─┬─{update-notifier}
+        │         │                 │                 ├─{update-notifier}
+        │         │                 │                 └─{update-notifier}
+        │         │                 ├─{gnome-session-b}
+        │         │                 ├─{gnome-session-b}
+        │         │                 └─{gnome-session-b}
+        │         ├─gnome-session-c───{gnome-session-c}
+        │         ├─gnome-shell─┬─bash───notepad-plus-pl─┬─{notepad-plus-pl}
+        │         │             │                        └─{notepad-plus-pl}
+        │         │             ├─ibus-daemon─┬─ibus-engine-sim─┬─{ibus-engine-sim}
+        │         │             │             │                 └─{ibus-engine-sim}
+        │         │             │             ├─ibus-extension-─┬─{ibus-extension-}
+        │         │             │             │                 ├─{ibus-extension-}
+        │         │             │             │                 └─{ibus-extension-}
+        │         │             │             ├─ibus-memconf─┬─{ibus-memconf}
+        │         │             │             │              └─{ibus-memconf}
+        │         │             │             ├─{ibus-daemon}
+        │         │             │             └─{ibus-daemon}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             ├─{gnome-shell}
+        │         │             └─{gnome-shell}
+        │         ├─gnome-shell-cal─┬─{gnome-shell-cal}
+        │         │                 ├─{gnome-shell-cal}
+        │         │                 ├─{gnome-shell-cal}
+        │         │                 ├─{gnome-shell-cal}
+        │         │                 └─{gnome-shell-cal}
+        │         ├─gnome-terminal-─┬─bash───script───bash─┬─fork5─┬─fork5─┬─fork5─┬─fork5─┬─fork5───fork5
+        │         │                 │                      │       │       │       │       └─fork5
+        │         │                 │                      │       │       │       ├─fork5───fork5
+        │         │                 │                      │       │       │       └─fork5
+        │         │                 │                      │       │       ├─fork5─┬─fork5───fork5
+        │         │                 │                      │       │       │       └─fork5
+        │         │                 │                      │       │       ├─fork5───fork5
+        │         │                 │                      │       │       └─fork5
+        │         │                 │                      │       ├─fork5─┬─fork5─┬─fork5───fork5
+        │         │                 │                      │       │       │       └─fork5
+        │         │                 │                      │       │       ├─fork5───fork5
+        │         │                 │                      │       │       └─fork5
+        │         │                 │                      │       ├─fork5─┬─fork5───fork5
+        │         │                 │                      │       │       └─fork5
+        │         │                 │                      │       ├─fork5───fork5
+        │         │                 │                      │       └─fork5
+        │         │                 │                      └─pstree
+        │         │                 ├─{gnome-terminal-}
+        │         │                 ├─{gnome-terminal-}
+        │         │                 ├─{gnome-terminal-}
+        │         │                 └─{gnome-terminal-}
+        │         ├─goa-daemon─┬─{goa-daemon}
+        │         │            ├─{goa-daemon}
+        │         │            └─{goa-daemon}
+        │         ├─goa-identity-se─┬─{goa-identity-se}
+        │         │                 └─{goa-identity-se}
+        │         ├─gsd-a11y-settin─┬─{gsd-a11y-settin}
+        │         │                 ├─{gsd-a11y-settin}
+        │         │                 └─{gsd-a11y-settin}
+        │         ├─gsd-color─┬─{gsd-color}
+        │         │           ├─{gsd-color}
+        │         │           └─{gsd-color}
+        │         ├─gsd-datetime─┬─{gsd-datetime}
+        │         │              ├─{gsd-datetime}
+        │         │              └─{gsd-datetime}
+        │         ├─gsd-housekeepin─┬─{gsd-housekeepin}
+        │         │                 ├─{gsd-housekeepin}
+        │         │                 └─{gsd-housekeepin}
+        │         ├─gsd-keyboard─┬─{gsd-keyboard}
+        │         │              ├─{gsd-keyboard}
+        │         │              └─{gsd-keyboard}
+        │         ├─gsd-media-keys─┬─{gsd-media-keys}
+        │         │                ├─{gsd-media-keys}
+        │         │                └─{gsd-media-keys}
+        │         ├─gsd-power─┬─{gsd-power}
+        │         │           ├─{gsd-power}
+        │         │           └─{gsd-power}
+        │         ├─gsd-print-notif─┬─{gsd-print-notif}
+        │         │                 └─{gsd-print-notif}
+        │         ├─gsd-printer─┬─{gsd-printer}
+        │         │             └─{gsd-printer}
+        │         ├─gsd-rfkill─┬─{gsd-rfkill}
+        │         │            └─{gsd-rfkill}
+        │         ├─gsd-screensaver─┬─{gsd-screensaver}
+        │         │                 └─{gsd-screensaver}
+        │         ├─gsd-sharing─┬─{gsd-sharing}
+        │         │             ├─{gsd-sharing}
+        │         │             └─{gsd-sharing}
+        │         ├─gsd-smartcard─┬─{gsd-smartcard}
+        │         │               ├─{gsd-smartcard}
+        │         │               ├─{gsd-smartcard}
+        │         │               └─{gsd-smartcard}
+        │         ├─gsd-sound─┬─{gsd-sound}
+        │         │           ├─{gsd-sound}
+        │         │           └─{gsd-sound}
+        │         ├─gsd-usb-protect─┬─{gsd-usb-protect}
+        │         │                 ├─{gsd-usb-protect}
+        │         │                 └─{gsd-usb-protect}
+        │         ├─gsd-wacom─┬─{gsd-wacom}
+        │         │           └─{gsd-wacom}
+        │         ├─gsd-wwan─┬─{gsd-wwan}
+        │         │          ├─{gsd-wwan}
+        │         │          └─{gsd-wwan}
+        │         ├─gsd-xsettings─┬─{gsd-xsettings}
+        │         │               ├─{gsd-xsettings}
+        │         │               └─{gsd-xsettings}
+        │         ├─gvfs-afc-volume─┬─{gvfs-afc-volume}
+        │         │                 ├─{gvfs-afc-volume}
+        │         │                 └─{gvfs-afc-volume}
+        │         ├─gvfs-goa-volume─┬─{gvfs-goa-volume}
+        │         │                 └─{gvfs-goa-volume}
+        │         ├─gvfs-gphoto2-vo─┬─{gvfs-gphoto2-vo}
+        │         │                 └─{gvfs-gphoto2-vo}
+        │         ├─gvfs-mtp-volume─┬─{gvfs-mtp-volume}
+        │         │                 └─{gvfs-mtp-volume}
+        │         ├─gvfs-udisks2-vo─┬─{gvfs-udisks2-vo}
+        │         │                 ├─{gvfs-udisks2-vo}
+        │         │                 └─{gvfs-udisks2-vo}
+        │         ├─gvfsd─┬─gvfsd-trash─┬─{gvfsd-trash}
+        │         │       │             └─{gvfsd-trash}
+        │         │       ├─{gvfsd}
+        │         │       └─{gvfsd}
+        │         ├─gvfsd-fuse─┬─{gvfsd-fuse}
+        │         │            ├─{gvfsd-fuse}
+        │         │            ├─{gvfsd-fuse}
+        │         │            ├─{gvfsd-fuse}
+        │         │            └─{gvfsd-fuse}
+        │         ├─gvfsd-metadata─┬─{gvfsd-metadata}
+        │         │                └─{gvfsd-metadata}
+        │         ├─ibus-portal─┬─{ibus-portal}
+        │         │             └─{ibus-portal}
+        │         ├─ibus-x11─┬─{ibus-x11}
+        │         │          └─{ibus-x11}
+        │         ├─nautilus─┬─{nautilus}
+        │         │          ├─{nautilus}
+        │         │          ├─{nautilus}
+        │         │          ├─{nautilus}
+        │         │          ├─{nautilus}
+        │         │          └─{nautilus}
+        │         ├─plugplay.exe─┬─{plugplay.exe}
+        │         │              └─{plugplay.exe}
+        │         ├─pulseaudio─┬─{pulseaudio}
+        │         │            ├─{pulseaudio}
+        │         │            └─{pulseaudio}
+        │         ├─services.exe─┬─{services.exe}
+        │         │              ├─{services.exe}
+        │         │              ├─{services.exe}
+        │         │              ├─{services.exe}
+        │         │              └─{services.exe}
+        │         ├─tracker-miner-f─┬─{tracker-miner-f}
+        │         │                 ├─{tracker-miner-f}
+        │         │                 ├─{tracker-miner-f}
+        │         │                 └─{tracker-miner-f}
+        │         ├─tracker-store─┬─{tracker-store}
+        │         │               ├─{tracker-store}
+        │         │               ├─{tracker-store}
+        │         │               └─{tracker-store}
+        │         ├─winedevice.exe─┬─{winedevice.exe}
+        │         │                └─{winedevice.exe}
+        │         ├─winedevice.exe─┬─{winedevice.exe}
+        │         │                ├─{winedevice.exe}
+        │         │                └─{winedevice.exe}
+        │         ├─wineserver
+        │         ├─xdg-document-po─┬─{xdg-document-po}
+        │         │                 ├─{xdg-document-po}
+        │         │                 ├─{xdg-document-po}
+        │         │                 ├─{xdg-document-po}
+        │         │                 └─{xdg-document-po}
+        │         └─xdg-permission-─┬─{xdg-permission-}
+        │                           └─{xdg-permission-}
+        ├─systemd-journal
+        ├─systemd-logind
+        ├─systemd-resolve
+        ├─systemd-timesyn───{systemd-timesyn}
+        ├─systemd-udevd
+        ├─teamviewerd─┬─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             ├─{teamviewerd}
+        │             └─{teamviewerd}
+        ├─udisksd─┬─{udisksd}
+        │         ├─{udisksd}
+        │         ├─{udisksd}
+        │         └─{udisksd}
+        ├─unattended-upgr───{unattended-upgr}
+        ├─upowerd─┬─{upowerd}
+        │         └─{upowerd}
+        ├─whoopsie─┬─{whoopsie}
+        │          └─{whoopsie}
+        ├─wpa_supplicant
+        └─xl2tpd
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w1.  Linux/hw/1[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w1.  Linux/hw/1[00m$ exo[Kit
 exit
 
-Script done on 2020-11-10 23:37:57+03:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2020-11-12 17:41:53+03:00 [COMMAND_EXIT_CODE="0"]
