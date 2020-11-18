@@ -4,4 +4,4 @@ COPY /brat_v /brat
 RUN chmod 777 /brat
 WORKDIR /brat
 EXPOSE 8080
-ENTRYPOINT ["python", "/brat/standalone.py", "8080", "--net=host"]
+ENTRYPOINT ["python", "/brat/standalone.py", "8080"]
