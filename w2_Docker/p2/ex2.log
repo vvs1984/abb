@@ -1,6 +1,6 @@
-Script started on 2020-11-18 15:28:56+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="111" LINES="56"]
+Script started on 2020-11-19 13:04:08+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
 (base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ docker build -t brat_local .
-Sending build context to Docker daemon  557.1kBSending build context to Docker daemon  13.37MBSending build context to Docker daemon  25.62MBSending build context to Docker daemon  38.44MBSending build context to Docker daemon  50.14MBSending build context to Docker daemon  61.83MBSending build context to Docker daemon  72.42MBSending build context to Docker daemon  83.56MBSending build context to Docker daemon   94.7MBSending build context to Docker daemon  105.8MBSending build context to Docker daemon    117MBSending build context to Docker daemon  128.7MBSending build context to Docker daemon  139.3MBSending build context to Docker daemon  149.3MBSending build context to Docker daemon    161MBSending build context to Docker daemon  173.2MBSending build context to Docker daemon  185.5MBSending build context to Docker daemon  196.6MBSending build context to Docker daemon  207.2MBSending build context to Docker daemon  217.8MBSending build context to Docker daemon    229MBSending build context to Docker daemon  241.8MBSending build context to Docker daemon    254MBSending build context to Docker daemon  265.7MBSending build context to Docker daemon  275.2MBSending build context to Docker daemon  285.2MBSending build context to Docker daemon  295.2MBSending build context to Docker daemon  305.8MBSending build context to Docker daemon  316.4MBSending build context to Docker daemon  327.5MBSending build context to Docker daemon  338.7MBSending build context to Docker daemon  352.1MBSending build context to Docker daemon  364.3MBSending build context to Docker daemon  370.4MBSending build context to Docker daemon  383.3MBSending build context to Docker daemon  395.5MBSending build context to Docker daemon  407.1MB
+Sending build context to Docker daemon  557.1kBSending build context to Docker daemon  12.81MBSending build context to Docker daemon  25.62MBSending build context to Docker daemon  37.88MBSending build context to Docker daemon  50.69MBSending build context to Docker daemon  64.06MBSending build context to Docker daemon  77.43MBSending build context to Docker daemon  89.13MBSending build context to Docker daemon  101.9MBSending build context to Docker daemon  115.3MBSending build context to Docker daemon  129.2MBSending build context to Docker daemon  141.5MBSending build context to Docker daemon  153.7MBSending build context to Docker daemon  164.3MBSending build context to Docker daemon  177.1MBSending build context to Docker daemon  188.8MBSending build context to Docker daemon  201.7MBSending build context to Docker daemon    215MBSending build context to Docker daemon  226.2MBSending build context to Docker daemon  237.9MBSending build context to Docker daemon  250.7MBSending build context to Docker daemon  263.5MBSending build context to Docker daemon  275.2MBSending build context to Docker daemon    288MBSending build context to Docker daemon  300.3MBSending build context to Docker daemon  313.6MBSending build context to Docker daemon    327MBSending build context to Docker daemon  340.9MBSending build context to Docker daemon  355.4MBSending build context to Docker daemon  364.9MBSending build context to Docker daemon  372.7MBSending build context to Docker daemon  384.4MBSending build context to Docker daemon  397.7MBSending build context to Docker daemon  407.1MB
 Step 1/7 : FROM python:3.7
  ---> 5b86e11778a2
 Step 2/7 : RUN mkdir /brat
@@ -23,7 +23,7 @@ Step 7/7 : ENTRYPOINT ["python", "/brat/standalone.py", "8080"]
  ---> 4b412bbbc0c3
 Successfully built 4b412bbbc0c3
 Successfully tagged brat_local:latest
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ docker run -v /home/vvs/brat_data:/brat/data -p 8080:8080 -t brat_local .
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ docker run -v /home/vvs/brat_data:/brat/data/1 -p 8080:8080 -t brat_local .
 ['/brat/standalone.py', '8080', '.']
 
 ! WARNING: running as root. The brat standalone server is experimental   !
@@ -33,8 +33,9 @@ Successfully tagged brat_local:latest
 ! installation).                                                         !
 
 Serving brat at http://0.0.0.0:8080
-^C(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ docker save brat_local:latest | gzip > /home/vvs/vvs_home/abb/w2_Docker/p2/brat_local.tar.gz
-(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ exit
+^C(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ docker save brat_local:latest | gzip > /home/vvs/vvs_home/abb/w2_Docker/p2/brat_local.tar.gz/brat_local.tar.gz
+bash: /home/vvs/vvs_home/abb/w2_Docker/p2/brat_local.tar.gz/brat_local.tar.gz: Not a directory
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ ei[Kxit
 exit
 
-Script done on 2020-11-18 15:30:41+03:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2020-11-19 13:06:17+03:00 [COMMAND_EXIT_CODE="1"]
