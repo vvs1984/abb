@@ -92,7 +92,8 @@ Status code
 
 Результат:
 
-``````
+```
+```
 
 Status code
 
@@ -136,7 +137,8 @@ Pапрос :
 
 Результат:
 
-``````
+```
+```
 
 Status code
 
@@ -197,7 +199,8 @@ Status code
 
 Результат:
 
-``````
+```
+```
 
 Status code
 
@@ -256,7 +259,8 @@ Pапрос :
 
 Результат:
 
-``````
+```
+```
 
 Status code
 
@@ -322,7 +326,8 @@ Status code
 
 Результат:
 
-``````
+```
+```
 
 Status code
 
@@ -392,7 +397,8 @@ Status code
 
 Результат:
 
-``````
+```
+```
 
 Status code
 
@@ -463,7 +469,8 @@ Status code
 
 Результат:
 
-``````
+```
+```
 
 Status code
 
@@ -533,7 +540,8 @@ Status code
 
 Результат:
 
-``````
+```
+```
 
 Status code
 
@@ -603,7 +611,8 @@ Status code
 
 Результат:
 
-``````
+```
+```
 
 Status code
 
@@ -688,7 +697,8 @@ Status code
 
 Результат:
 
-``` ```
+```
+```
 
 Status code
 
