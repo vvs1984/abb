@@ -1,0 +1,92 @@
+Sending build context to Docker daemon  23.55kB
+Step 1/6 : FROM python:3.7
+ ---> 5b86e11778a2
+Step 2/6 : WORKDIR /usr/src/app
+ ---> Using cache
+ ---> 29c0c25234ab
+Step 3/6 : COPY . .
+ ---> 0c90fde872f7
+Step 4/6 : RUN pip install -r requirements.txt
+ ---> Running in cddc34ccab42
+Collecting Flask==1.1.1
+  Downloading Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+Collecting psycopg2==2.8.6
+  Downloading psycopg2-2.8.6.tar.gz (383 kB)
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (27 kB)
+Building wheels for collected packages: psycopg2
+  Building wheel for psycopg2 (setup.py): started
+  Building wheel for psycopg2 (setup.py): finished with status 'done'
+  Created wheel for psycopg2: filename=psycopg2-2.8.6-cp37-cp37m-linux_x86_64.whl size=467864 sha256=341a56ec427c9c5cfe76ea33f1cce3e7861fc047162cec6c98e0c6e735682f92
+  Stored in directory: /root/.cache/pip/wheels/25/78/75/9c0323f7e1fb42143cbd2439302beb7850a1034abb961cb281
+Successfully built psycopg2
+Installing collected packages: click, itsdangerous, Werkzeug, MarkupSafe, Jinja2, Flask, psycopg2
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0 psycopg2-2.8.6
+[91mWARNING: You are using pip version 20.2.4; however, version 20.3 is available.
+You should consider upgrading via the '/usr/local/bin/python -m pip install --upgrade pip' command.
+[0mRemoving intermediate container cddc34ccab42
+ ---> 449b24b137b8
+Step 5/6 : EXPOSE 5000 5432
+ ---> Running in 064cec579e34
+Removing intermediate container 064cec579e34
+ ---> 3f29743e4228
+Step 6/6 : ENTRYPOINT ["python3", "./imdb.py"]
+ ---> Running in 8abae73b1977
+Removing intermediate container 8abae73b1977
+ ---> 15542dcf89bb
+Successfully built 15542dcf89bb
+Successfully tagged imdb_app:latest
+Sending build context to Docker daemon  26.11kB
+Step 1/6 : FROM python:3.7
+ ---> 5b86e11778a2
+Step 2/6 : WORKDIR /usr/src/app
+ ---> Using cache
+ ---> 29c0c25234ab
+Step 3/6 : COPY . .
+ ---> 0bc38baf40b2
+Step 4/6 : RUN pip install -r requirements.txt
+ ---> Running in 13853bb4fe8a
+Collecting Flask==1.1.1
+  Downloading Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+Collecting psycopg2==2.8.6
+  Downloading psycopg2-2.8.6.tar.gz (383 kB)
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (27 kB)
+Building wheels for collected packages: psycopg2
+  Building wheel for psycopg2 (setup.py): started
+  Building wheel for psycopg2 (setup.py): finished with status 'done'
+  Created wheel for psycopg2: filename=psycopg2-2.8.6-cp37-cp37m-linux_x86_64.whl size=467915 sha256=e3973a0a6b54bf1fb5d64a1ade25843c970c2c8940da9568c51e27dec2ca75b7
+  Stored in directory: /root/.cache/pip/wheels/25/78/75/9c0323f7e1fb42143cbd2439302beb7850a1034abb961cb281
+Successfully built psycopg2
+Installing collected packages: MarkupSafe, Jinja2, click, Werkzeug, itsdangerous, Flask, psycopg2
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0 psycopg2-2.8.6
+[91mWARNING: You are using pip version 20.2.4; however, version 20.3 is available.
+You should consider upgrading via the '/usr/local/bin/python -m pip install --upgrade pip' command.
+[0mRemoving intermediate container 13853bb4fe8a
+ ---> 1512fac8442d
+Step 5/6 : EXPOSE 5000 5432
+ ---> Running in 44c4bc3d0598
+Removing intermediate container 44c4bc3d0598
+ ---> fc851c3f343c
+Step 6/6 : ENTRYPOINT ["python3", "./imdb.py"]
+ ---> Running in 32cea29f6d15
+Removing intermediate container 32cea29f6d15
+ ---> ea968ab07c0d
+Successfully built ea968ab07c0d
+Successfully tagged imdb_app:latest
